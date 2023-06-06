@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Carrinho de Compras</title>
+
+    <link rel="stylesheet" href="C:\Users\slpra\Documents\PROJETO - TESTE\css.carrinho.css">
+
+    <style>
+        .product {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .product img {
+            width: 50px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Carrinho de Compras</h1>
+
+    <div id="cart-items"></div>
+
+    <div id="total">Total: R$ 0,00</div>
+
+    <div class="button-cart">
+        <button id="clear-cart" onclick="clearCart()">Limpar Carrinho</button>
+        <button id="finish-order" onclick="finishOrder()">Finalizar Compra</button>
+    </div>
+
+
+    <script src="cart.js"></script>
+</body>
+
+</html>
